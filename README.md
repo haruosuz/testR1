@@ -20,7 +20,7 @@ This is an example of a project directory, project documentation, and shell and 
 
 ## Scripts
 
-The shell script `scripts/run.sh` automatically carries out the entire steps: creating directories (`data/` and `analysis/`) and some empty files (`data/input.txt`), and running the R script `scripts/my_analysis.R` that generates an output file (`analysis/output.txt`).
+The shell script `scripts/run.sh` automatically carries out the entire steps: creating directories (`data/` and `analysis/`) and some empty files (`data/input.txt`), redirecting standard out to an output file (`analysis/output.txt`), and running the R script `scripts/my_analysis.R` that appends to the output file.
 
 Let's run this (in the `testR1/` directory) using:
 
