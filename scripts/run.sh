@@ -5,9 +5,9 @@ set -euo pipefail
 
 mkdir data analysis
 
-# Creating some empty README files in data/
+# Creating some empty files in data/
 
-touch data/README
+touch data/input.txt
 
 # Running R scripts
 
